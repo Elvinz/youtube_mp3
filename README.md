@@ -1,11 +1,15 @@
 # youtube_mp3
 Python script download youtube_mp3
+Ссылка для скачивания FFmpeg декодера: https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z
+https://www.gyan.dev/ffmpeg/builds/
 
-https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z
 1. Распакуйте архив (например, с помощью 7-Zip) в постоянную папку на диске, например: C:\ffmpeg.
 2. Добавьте путь к исполняемым файлам в PATH, чтобы команда ffmpeg работала из любой папки:
 	• Откройте Свойства системы -> Дополнительные параметры системы -> Переменные окружения.
 	• В разделе «Системные переменные» найдите строку Path, нажмите Изменить и добавьте новый путь к папке с файлом ffmpeg.exe (например, C:\ffmpeg\bin)
 3. Перезапустите терминал и проверьте работу командой ffmpeg -version
-4. Через терминал запустите закачку python download_audio.py "Ссылка из ютуба"
+4. Скачайте файл в папку download_audio.py С:/py
+5. Запустите Windows + R в поле введите CMD, запустится терминал
+6. Перейдите в корневую папку CD / и в раздел CD py
+7. Через терминал запустите закачку python download_audio.py "Ссылка из ютуба"
 
