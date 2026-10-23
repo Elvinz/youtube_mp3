@@ -11,5 +11,6 @@ Python script download youtube_mp3
 5. Запустите Windows + R в поле введите CMD, запустится терминал
 6. Перейдите в корневую папку введя в терминале CD / и в раздел CD py
 7. Через терминал запустите закачку python download_audio.py "Ссылка из ютуба"
+
 Все версии декодера для скачивания  
 https://www.gyan.dev/ffmpeg/builds/
